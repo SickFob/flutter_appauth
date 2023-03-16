@@ -10,7 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
   flutter_appauth_platform_interface: ^5.2.0
+  http: ^0.13.5
+  pointycastle: ^3.6.2
 
 flutter:
   plugin:
